@@ -97,7 +97,7 @@ function DataLoader({
     },
     {
       id: 'sample',
-      name: 'Try our data samples',
+      name: 'Try official data samples',
       message: '',
       loader: (
         <DataSamples

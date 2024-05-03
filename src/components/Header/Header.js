@@ -18,7 +18,7 @@ export default function Header({ menuItems }) {
           })}
           <a
             role="button"
-            href="https://github.com/sponsors/rawgraphs"
+            href="https://hilbertc.me/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-sm btn-primary ml-2 d-flex flex-column align-items-center justify-content-center"
