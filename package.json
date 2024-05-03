@@ -1,6 +1,6 @@
 {
-  "name": "rawgraphs-frontend",
-  "homepage": "https://app.rawgraphs.io",
+  "name": "plot.hilbertc.me",
+  "homepage": "https://plot.hilbertc.me",
   "version": "2.0.1",
   "private": true,
   "dependencies": {
@@ -43,7 +43,7 @@
   "scripts": {
     "format": "prettier --write src",
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "deploy": "react-scripts build --openssl-legacy-provider && sudo cp -r build /var/www/plot/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
